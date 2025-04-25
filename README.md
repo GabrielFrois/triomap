@@ -16,15 +16,28 @@ TrioMap é um projeto web responsivo que permite comparar rotas entre três loca
 - [OpenRouteService](https://openrouteservice.org/) para geocodificação e rotas
 - Service Worker + Manifest para PWA
 
-## Como usar
-1. Clone o repositório
-2. Adicione sua chave da API OpenRouteService no código
-3. Coloque os ícones `icon-192.png` e `icon-512.png` na raiz
-4. Rode o projeto localmente com um servidor (Live Server, http-server etc.)
-5. Acesse pelo navegador e adicione à tela inicial para instalar como app
+## Planejamento de Desenvolvimento
 
-## Instalação como PWA
-O site pode ser instalado em dispositivos móveis e desktops modernos:
-- No Chrome: clique em "Instalar app" na barra de endereço
-- No Android: ao acessar, será oferecida a opção "Adicionar à Tela Inicial"
+### Etapa 1:Criação do Protótipo e Design
+**Objetivo:** Criar os protótipos de interface.
+- Defina a interface de usuário (UI), com base na experiência do usuário (UX).
+- Considere responsividade e acessibilidade na aplicação.
 
+### Etapa 2: Desenvolvimento da Estrutura Básica
+**Objetivo:** Começar a construção da base do projeto.
+- Desenvolvimento dos arquivos HTML, CSS e JavaScript
+
+### Etapa 3: Integração com Mapas
+**Objetivo:** Integrar com a API de mapa escolhida (ex.: Google Maps, Leaflet).
+- Adicionar o mapa básico ao frontend, com funcionalidades como zoom, rotação, e marcadores.
+- Implementar interatividade básica, como cliques nos mapas e exibição de informações sobre a localização selecionada.
+
+### Etapa 4: Funcionalidades Principais
+**Objetivo:** Implementar as funcionalidades principais para a utilização do projeto.
+- Exibição de trilhas ou pontos de interesse no mapa.
+- Funcionalidades de busca de locais ou trilhas.
+
+### Etapa 5: Ajustes Finais e Polimento
+**Objetivo:** Refinar a aplicação para produção.
+- Melhorias no design e no layout.
+- Melhorias de desempenho (ex: lazy loading de imagens ou dados, otimização de código).
